@@ -7,5 +7,5 @@ echo "I am printing the second argument $secondVar"
 
 echo "Name of the executed script is $0"
 
-echo "Arguments used in the script are $#"
-echo "Arguments used in the script are $@"
+#echo "Arguments used in the script are $#"
+#echo "Arguments used in the script are $@"
