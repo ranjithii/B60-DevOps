@@ -77,7 +77,7 @@ dnf install mongodb-mongosh -y &>> $LOG
 stat $?
 
 echo -n "Injecting the schema :"
-mongosh --host mongodb.robotshop.fun </app/db/master-data.js &>> $LOG
+mongosh --host mongodb.krrinet.online </app/db/master-data.js &>> $LOG
 stat $? 
 
 echo -n "Starting $COMPONENT service :"
