@@ -41,4 +41,4 @@ systemctl enable mongod
 systemctl restart mongod
 stat $?
 
-echo -e "\n \t ___ Configuration Management for $COMPONENT in completed! ___"
+echo -e "\n \t ___ Configuration Management for $COMPONENT is completed! ___"
