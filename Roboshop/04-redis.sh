@@ -48,4 +48,4 @@ systemctl enable $COMPONENT  &>> $LOG
 systemctl restart $COMPONENT  &>> $LOG 
 stat $?
 
-echo -e "\n \t ___ Configuration Management for $COMPONENT in completed! ___"
+echo -e "\n \t ___ Configuration Management for $COMPONENT is completed! ___"
